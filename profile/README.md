@@ -1,10 +1,6 @@
-# XRoboToolkit
+**XR Robotics** is an open-source initiative for developers and professionals in **XR**, **robotics**, and **AI**. We provide XRoboToolkit, a suite of cross-device SDKs, frameworks, and sample applications that enable **real-time remote robot operation** through XR devices.
 
-**XRoboToolkit** is an open-source initiative for professionals in **XR**, **robotics**, and **AI**. We provide a suite of cross-device SDKs, frameworks, and sample applications that enable **real-time remote robot operation** through XR devices.
-
-Our mission is to **foster an industry-wide standard for XR-driven teleoperation**, leveraging the OpenXR ecosystem and collaborating openly with the developer community.
-
----
+---**
 
 ## 🧰 Repositories
 
