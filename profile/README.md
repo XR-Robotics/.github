@@ -2,19 +2,26 @@
 
 ---
 
-## 🧰 Repositories
+### 🧰 Repositories
 
-We offer a modular, multi-platform set of SDKs and sample projects to help you build XR-controlled robotics applications.  
+#### 📦 Samples
 
-### ✅ Core Components  
-- `XRoboToolkit-PC-Service`: PC-side robot communication bridge
-- `XRoboToolkit-Teleop-Sample-Python`: Python-based simulation and demo for UR5 robot
-- `XRoboToolkit-Teleop-Demo-UR5`: Native C++ teleop example on a real robot arm  
-- `XRoboToolkit-BRobotAssistantU3d`: Unity XR client source code  
-- `XRoboToolkit-BRobotAssistantLib`: Android Unity plugin source  
-- `XRoboToolkit-Unity-Demo`: Unity APK & PC installers (see individual repo README for download links)
+| Repository                             | Description                                      |
+|----------------------------------------|--------------------------------------------------|
+| XRoboToolkit-Teleop-Sample-Python   | Python binding with simulation and real robot control sample |
+| XRoboToolkit-Teleop-Sample-Cpp       | C++ UR5 robotic arm control sample                           |
 
-> *Note: Each component has its own README and setup guide.*
+#### 🧩 Source Code
+
+|Repository                              | Description                                                                 |
+|----------------------------------------|-----------------------------------------------------------------------------|
+| XRoboToolkit-Unity-Client              | Unity client source code for XR interface (PICO supported, more coming)  |
+| BRobotAssistantLib                     | Android library component for Unity robot interface                      |
+| XRoboToolkit-PC-Service                | Core C++ PC-side robotics service                                        |
+| XRoboToolkit-PC-Service-Pybind         | Python binding for PC service SDK                                        |
+
+> 📄 *Each repository contains its own README and setup instructions.*
+
 
 ---
 
