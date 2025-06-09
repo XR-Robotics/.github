@@ -8,17 +8,17 @@
 
 | Repository                             | Description                                      |
 |----------------------------------------|--------------------------------------------------|
-| XRoboToolkit-Teleop-Sample-Python   | simulation and real robot teleoperation sample written in python |
-| XRoboToolkit-Teleop-Sample-Cpp       | Bimanuel robot platform teleoperation sample written in C++             |
+| [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python#)   | simulation and real robot teleoperation sample written in python |
+| [XRoboToolkit-Teleop-Sample-Cpp](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Cpp#)       | Bimanuel robot platform teleoperation sample written in C++             |
 
 #### 🧩 Source Code
 
 |Repository                              | Description                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------|
-| XRoboToolkit-Unity-Client              | Unity client source code for XR interface (PICO supported, more coming)  |
-| BRobotAssistantLib                     | Android library component for Unity robot interface                      |
-| XRoboToolkit-PC-Service                | Core C++ PC-side robotics service                                        |
-| XRoboToolkit-PC-Service-Pybind         | Python binding for PC service SDK                                        |
+| [XRoboToolkit-Unity-Client](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client)              | Unity client source code for XR interface (PICO supported, more coming)  |
+| [BRobotAssistantLib](https://github.com/XR-Robotics/BRobotAssistantLib)                     | Android library component for Unity robot interface                      |
+| [XRoboToolkit-PC-Service](https://github.com/XR-Robotics/XRoboToolkit-PC-Service)                | Core C++ PC-side robotics service                                        |
+| [XRoboToolkit-PC-Service-Pybind](https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind)         | Python binding for PC service SDK                                        |
 
 > 📄 *Each repository contains its own README and setup instructions.*
 
