@@ -24,6 +24,24 @@
 
 ---
 ## 🚀 Get Started
+
+
+<table>
+<tr>
+<td width="50%">
+
+https://github.com/user-attachments/assets/59b9ca19-0658-4b9f-a2e2-f3596bdc113d
+
+</td>
+<td width="50%">
+
+<!-- Your content for the right side goes here -->
+
+</td>
+</tr>
+</table>
+
+
 Follow these steps to build and run a full XR-to-robot teleoperation sample on a **PICO 4 Ultra headset and a Linux x86 PC**. This sample has been tested only under the below system OS requirements:
 Linux x86 PC: Ubuntu 22.04
 PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST camera permission is required for headset camera access.
