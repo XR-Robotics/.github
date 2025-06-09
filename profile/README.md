@@ -37,7 +37,7 @@ Follow these steps to build and run a full XR-to-robot teleoperation demo on **P
    - [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python)
 
 3. **Install the XR App on Headset**  
-   - Download and install `XRoboToolkit-PICO.apk` on supported XR devices.
+   - Download and install [XRoboToolkit-PICO.apk](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client/releases/download/v1.0.0/XRoboToolkit-PICO.apk) on supported XR devices.
 
 4. **Test in Real or Simulated Environment**  
    - Supports PICO 4 Ultra + UR5 (real or Gazebo/Isaac Sim simulations)
