@@ -22,37 +22,32 @@
 
 > 📄 *Each repository contains its own README and setup instructions.*
 
-
 ---
-
 ## 🚀 Get Started
-
-Follow these steps to build and run a full XR-to-robot teleoperation sample on **PICO 4 Ultra headset and a linux x86 PC. This sample has been tested only under the below system OS requirment:
+Follow these steps to build and run a full XR-to-robot teleoperation sample on a **PICO 4 Ultra headset and a Linux x86 PC**. This sample has been tested only under the below system OS requirements:
 Linux x86 PC: Ubuntu 22.04
 PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST camera permission is required for headset camera access.
-
-
 1. **Install XRoboToolkit-PC-Service**  
-   - [deb package for ubuntu 22.04](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit-PC-Service_1.0.0_ubuntu_amd64.deb) 
-   - Or build from the repo source.
-
+   - Download [deb package for ubuntu 22.04](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit-PC-Service_1.0.0_ubuntu_amd64.deb), or build from the [repo source](https://github.com/XR-Robotics/XRoboToolkit-PC-Service).
+   - To install, use command
+     ```bash
+      cd demo_release
+      sudo dpkg -i XRoboToolkit-PC-Service_1.0.0_ubuntu_amd64.deb
+      ```
 2. **Clone & Set Up Python Teleop Sample**  
    - [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python)
-
 3. **Install the XR App on Headset**
    - Turn on developer mode on Pico 4 Ultra headset first ([Enable developer mode on Pico 4 Ultra](https://developer.picoxr.com/ja/document/unreal/test-and-build/)), and make sure that [adb](https://developer.android.com/tools/adb) is installed properly.
-
    - Download [XRoboToolkit-PICO.apk](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client/releases/download/v1.0.0/XRoboToolkit-PICO.apk) on a PC with adb installed.
    - To install apk on the headset, use command
      ```bash
       adb shell install XRoboToolkit-PICO.apk
       ```
-   
-   
-5. **Test in Real or Simulated Environment**  
-   - Supports PICO 4 Ultra + UR5 (real or Gazebo/Isaac Sim simulations)
-
----
+4. **Run Sample in Simulated Environment or on Real Robot**
+   - Connect robot PC and Pico 4 Ultra under the same network
+   - On robot PC, run service `/opt/apps/picobusinesssuite/runService.sh`
+   - Open app `XRoboToolkit` on Pico headset. Details of the Unity app can be found in the [Unity source repo](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client).
+   - Follow instructions on [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python) to run test in simulated environment or on real robot.
 
 ## 📦 Key Features
 
