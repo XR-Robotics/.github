@@ -8,8 +8,8 @@
 
 | Repository                             | Description                                      |
 |----------------------------------------|--------------------------------------------------|
-| XRoboToolkit-Teleop-Sample-Python   | Python binding with simulation and real robot control sample |
-| XRoboToolkit-Teleop-Sample-Cpp       | C++ UR5 robotic arm control sample                           |
+| XRoboToolkit-Teleop-Sample-Python   | simulation and real robot teleoperation sample written in python |
+| XRoboToolkit-Teleop-Sample-Cpp       | Bimanuel robot platform teleoperation sample written in C++             |
 
 #### 🧩 Source Code
 
