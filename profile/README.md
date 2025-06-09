@@ -26,11 +26,17 @@
 ## 🚀 Get Started
 
 
+
+
+
+
+
+
 <table>
 <tr>
 <td width="50%">
 
-https://github.com/user-attachments/assets/59b9ca19-0658-4b9f-a2e2-f3596bdc113d
+https://github.com/user-attachments/assets/288b3f30-11b8-458f-a596-a6c91a87a993
 
 </td>
 <td width="50%">
