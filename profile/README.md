@@ -30,7 +30,7 @@
 Follow these steps to build and run a full XR-to-robot teleoperation demo on **PICO 4 Ultra** and a **UR5 robot**.
 
 1. **Install XRoboToolkit-PC-Service**  
-   - (Windows: `...`, Linux: `...`)  
+   - [deb package for ubuntu 22.04](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit-PC-Service_1.0.0_ubuntu_amd64.deb) 
    - Or build from the repo source.
 
 2. **Clone & Set Up Python Teleop Sample**  
