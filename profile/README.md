@@ -68,8 +68,8 @@ PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST 
       ```
 4. **Run Sample in Simulated Environment or on Real Robot**
    - Connect robot PC and Pico 4 Ultra under the same network
-   - On robot PC, run service `/opt/apps/roboticsservice/runService.sh`
-   - Open app `XRoboToolkit` on Pico headset. Details of the Unity app can be found in the [Unity source repo](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client).
+   - On robot PC, double click app icon of `XRoboToolkit-PC-Service` or run service `/opt/apps/roboticsservice/runService.sh`
+   - Open app `XRoboToolkit` on the Pico headset. Details of the Unity app can be found in the [Unity source repo](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client).
    - Follow instructions on [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python) to run test in simulated environment or on real robot.
 
 ## 📦 Key Features
