@@ -52,7 +52,7 @@ Follow these steps to build and run a full XR-to-robot teleoperation sample on a
 Linux x86 PC: Ubuntu 22.04
 PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST camera permission is required for headset camera access.
 1. **Install XRoboToolkit-PC-Service**  
-   - Download [deb package for ubuntu 22.04]([https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit-PC-Service_1.0.0_ubuntu_amd64.deb](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit_PC_Service_1.0.0_ubuntu_22.04_amd64.deb)), or build from the [repo source](https://github.com/XR-Robotics/XRoboToolkit-PC-Service).
+   - Download [deb package for ubuntu 22.04](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit_PC_Service_1.0.0_ubuntu_22.04_amd64.deb), or build from the [repo source](https://github.com/XR-Robotics/XRoboToolkit-PC-Service).
    - To install, use command
      ```bash
       cd demo_release
