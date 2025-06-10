@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/288b3f30-11b8-458f-a596-a6c91a87a993
 </td>
 <td width="50%">
 
-<!-- Your content for the right side goes here -->
+https://github.com/user-attachments/assets/0e86046d-b632-4f04-b290-4ebce8b21f9a
 
 </td>
 </tr>
