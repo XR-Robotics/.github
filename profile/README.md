@@ -55,8 +55,7 @@ PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST 
    - Download [deb package for ubuntu 22.04](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit_PC_Service_1.0.0_ubuntu_22.04_amd64.deb), or build from the [repo source](https://github.com/XR-Robotics/XRoboToolkit-PC-Service).
    - To install, use command
      ```bash
-      cd demo_release
-      sudo dpkg -i XRoboToolkit-PC-Service_1.0.0_ubuntu_amd64.deb
+      sudo dpkg -i XRoboToolkit-PC-Service_1.0.0_ubuntu_22.04_amd64.deb
       ```
 2. **Clone & Set Up Python Teleop Sample**  
    - [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python)
