@@ -64,7 +64,7 @@ PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST 
    - Download [XRoboToolkit-PICO.apk](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client/releases/download/v1.0.0/XRoboToolkit-PICO.apk) on a PC with adb installed.
    - To install apk on the headset, use command
      ```bash
-      adb shell install XRoboToolkit-PICO.apk
+      adb install -g XRoboToolkit-PICO.apk
       ```
 4. **Run Sample in Simulated Environment or on Real Robot**
    - Connect robot PC and Pico 4 Ultra under the same network
