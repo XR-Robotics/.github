@@ -92,7 +92,7 @@ We welcome contributors from academia, industry, and the open-source robotics co
 
 - 💬 [Join the XR Robotics Discord](https://discord.gg/your-discord-link)
 - 🐞 Use [Issues](https://github.com/XR-Robotics/XRoboToolkit/issues) & Discussions in each repo
-- 📩 Contact: [yangning726@gmail.com](mailto:yangning726@gmail.com)
+- 📩 Contact: Ning Yang ([yangning726@gmail.com](mailto:yangning726@gmail.com)), Ke Jing ([drkejing@gmail.com](mailto:drkejing@gmail.com)).
 
 ---
 
