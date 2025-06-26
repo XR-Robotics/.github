@@ -8,8 +8,8 @@
 
 | Repository                             | Description                                      |
 |----------------------------------------|--------------------------------------------------|
-| [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python#)   | simulation and real robot teleoperation sample written in python |
-| [XRoboToolkit-Teleop-Sample-Cpp](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Cpp#)       | Bimanuel robot platform teleoperation sample written in C++             |
+| [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python)   | simulation and real robot teleoperation sample written in python |
+| [XRoboToolkit-Teleop-Sample-Cpp](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Cpp)       | Bimanuel robot platform teleoperation sample written in C++             |
 
 #### 🧩 Source Code
 
