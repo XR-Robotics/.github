@@ -93,14 +93,11 @@ This project is initiated and maintained by **PICO** to open up its XR robotics 
 We welcome contributors from academia, industry, and the open-source robotics community.
 
 ```
-@misc{zhao2025xrobotoolkitcrossplatformframeworkrobot,
+@article{zhao2025xrobotoolkit,
       title={XRoboToolkit: A Cross-Platform Framework for Robot Teleoperation}, 
-      author={Zhigen Zhao and Liuchuan Yu and Ke Jing and Ning Yang},
-      year={2025},
-      eprint={2508.00097},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2508.00097}, 
+      author={Zhigen Zhao and Liuchuan Yu and Ke Jing and Ning Yang}, 
+      journal={arXiv preprint arXiv:2508.00097},
+      year={2025}
 }
 ```
 
