@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/0e86046d-b632-4f04-b290-4ebce8b21f9a
 </table>
 
 
-Follow these steps to build and run a full XR-to-robot teleoperation sample on a **PICO 4 Ultra headset and a Linux x86 PC**. This sample has been tested only under the below system OS requirements:
+Follow these steps to build and run a full XR-to-robot teleoperation sample on a **[PICO 4 Ultra headset](https://www.staples.com/pico-4-ultra-enterprise-virtual-reality-headset-qualcomm-snapdragon-mixed-reality-white-p9001sw40679h/product_24626400) and a Linux x86 PC**. This sample has been tested only under the below system OS requirements:
 Linux x86 PC: Ubuntu 22.04
 PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST camera permission is required for headset camera access.
 1. **Install XRoboToolkit-PC-Service**  
