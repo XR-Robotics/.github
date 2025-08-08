@@ -1,7 +1,8 @@
 **XR Robotics** is an open-source initiative for developers and professionals in **XR**, **robotics**, and **AI**. We provide XRoboToolkit, a suite of cross-device SDKs, frameworks, and sample applications that enable **real-time remote robot teleoperation** through XR devices.
 
-For more video demos of XR Robotics, please follow our YouTube channel [@XRRobotics](https://www.youtube.com/@XRRobotics). 
-For more developer samples of PICO XR devices, visit [PICO Developer GitHub](https://github.com/Pico-Developer/).
+Website and paper: https://xr-robotics.github.io/
+YouTube channel: [@XRRobotics](https://www.youtube.com/@XRRobotics). 
+Developer samples of PICO XR devices: [PICO Developer GitHub](https://github.com/Pico-Developer/).
 
 ---
 
