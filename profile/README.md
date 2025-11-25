@@ -88,7 +88,7 @@ PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST 
 
 ---
 
-## 🤝 Application & Gallery
+## 🤝 Applications & Gallery
 - [SEEC: Stable End-Effector Control with Model-Enhanced Residual Learning for Humanoid Loco-Manipulation](https://arxiv.org/abs/2509.21231)  
   from Georgia Institute of Technology and Tsinghua University
 
