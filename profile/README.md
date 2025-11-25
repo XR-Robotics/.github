@@ -71,9 +71,9 @@ PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST 
       adb install -g XRoboToolkit-PICO-1.1.1.apk
       ```
 4. **Run Sample in Simulated Environment or on Real Robot**
-   - Connect robot PC and Pico 4 Ultra under the same network
+   - Connect robot PC and PICO 4 Ultra under the same network
    - On robot PC, double click app icon of `XRoboToolkit-PC-Service` or run service `/opt/apps/roboticsservice/runService.sh`
-   - Open app `XRoboToolkit` on the Pico headset. Details of the Unity app can be found in the [Unity source repo](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client).
+   - Open app `XRoboToolkit` on the PICO headset. Details of the Unity app can be found in the [Unity source repo](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client).
    - Follow instructions on [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python) to run test in simulated environment or on real robot.
 
 ## 📦 Key Features
@@ -88,11 +88,26 @@ PICO 4 Ultra: User OS >5.12. Special permission with enterprise version and VST 
 
 ---
 
+## 🤝 Application & Gallery
+- [SEEC: Stable End-Effector Control with Model-Enhanced Residual Learning for Humanoid Loco-Manipulation](https://arxiv.org/abs/2509.21231)  
+  from Georgia Institute of Technology and Tsinghua University
+
+- [TWIST2: A Scalable, Portable, and Holistic Humanoid Data Collection System](https://yanjieze.com/TWIST2/)  
+  from Amazon FAR, Stanford, USC, UC Berkeley, and CMU
+
+- [End-to-End Dexterous Arm-Hand VLA Policies via Shared Autonomy: VR Teleoperation Augmented by an Autonomous Hand VLA Policy for Efficient Data Collection](https://arxiv.org/abs/2511.00139)  
+  from ByteDance Seed
+
+- [SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control](https://nvlabs.github.io/SONIC/)  
+  from Nvidia
+
+
+
 ## 🤝 Community & Collaboration
 
-This project is initiated and maintained by **PICO** to open up its XR robotics framework for community use.
+This project is initiated and maintained by **PICO** as an open-source XR robotics framework for the community.
 
-We welcome contributors from academia, industry, and the open-source robotics community.
+We welcome all contributors from academia, industry, and the open-source robotics community.
 
 ```
 @article{zhao2025xrobotoolkit,
@@ -108,5 +123,8 @@ We welcome contributors from academia, industry, and the open-source robotics co
 - 📩 Contact: Ning Yang ([yangning726@gmail.com](mailto:yangning726@gmail.com)), Ke Jing ([drkejing@gmail.com](mailto:drkejing@gmail.com)).
 
 ---
+
+## News
+XRoboToolkit has been accepted to SII 2026 — [The 2026 IEEE/SICE International Symposium on System Integration](https://sice-si.org/SII2026/)!
 
 > ⚠️ This project is under active development. Contributions and feedback are highly encouraged.
