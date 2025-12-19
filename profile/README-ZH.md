@@ -9,12 +9,12 @@
 - 🧩 **PICO 开发者示例**：PICO Developer GitHub  
 
 ### 核心功能
-* 人形机器人，半人形移动机器人，双臂机器人通用，机器人视觉和触觉等反馈
+* [PICO 4 Ultra 头显](https://www.picoxr.com/cn/products/pico4-ultra) 人形机器人，半人形移动机器人，双臂机器人通用，机器人视觉和触觉等反馈
 * 低延迟第一人称视频传输（<100ms，< 1% 丢包率），
 * [PICO 体感追踪器](https://www.picoxr.com/cn/products/pico-motion-tracker) 支持[【全身追踪】](https://developer-cn.picoxr.com/document/unity/body-tracking/)和[【独立追踪】](https://developer-cn.picoxr.com/document/unity/object-tracking/)
 * C++，python, Unity SDK，OpenXR
 * x86 ubuntu，arm64 ubuntu（nvidia orin），windows适配
-* MuJoCo，[NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html)仿真平台支持（持续更新）
+* MuJoCo，[NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html) 仿真平台支持（持续更新）
 
 
 ---
