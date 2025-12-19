@@ -1,26 +1,78 @@
-**XRoboToolkit 是什么？**
+## 🤖 XR Robotics 简介
 
-XRoboToolkit 是一个使用 XR 设备控制多种机器人的开源项目，包含15个代码仓库。
+**XR Robotics** 是一个面向 **XR、机器人与人工智能（AI）** 开发者和专业人士的开源项目。
 
-适配了PICO 4 Ultra头显，控制器，运动追踪器，机器人运动学逆解器（IK）。
+我们提供 **XRoboToolkit** —— 一套跨设备的 SDK、框架和示例应用，支持通过 **XR 设备对机器人进行实时远程遥操作（Teleoperation）**，适用于仿真环境与真实机器人系统。
 
-目前XRoboToolkit已经广泛应用于全球顶尖机器人实验室，顶尖机器人公司。
+- 🌐 **官网与论文**：https://xr-robotics.github.io/  
+- 📺 **YouTube 频道**：@XRRobotics  
+- 🧩 **PICO 开发者示例**：PICO Developer GitHub  
+
+### 核心功能
+* 人形机器人，半人形移动机器人，双臂机器人通用，机器人视觉和触觉等反馈
+* 低延迟第一人称视频传输（<100ms，< 1% 丢包率），
+* [PICO 体感追踪器](https://www.picoxr.com/cn/products/pico-motion-tracker) 支持[【全身追踪】](https://developer-cn.picoxr.com/document/unity/body-tracking/)和[【独立追踪】](https://developer-cn.picoxr.com/document/unity/object-tracking/)
+* C++，python, Unity SDK，OpenXR
+* x86 ubuntu，arm64 ubuntu（nvidia orin），windows适配
+* MuJoCo，Isaac lab仿真平台支持 （持续更新）
+
+
+---
+
+## 🧰 项目仓库
+
+### 📦 示例项目（Samples）
+
+| 仓库 | 说明 |
+|------|------|
+| **XRoboToolkit-Teleop-Sample-Python** | 使用 Python 编写的仿真与真实机器人遥操作示例 |
+| **XRoboToolkit-Teleop-Sample-Cpp** | 使用 C++ 编写的双臂（Bimanual）机器人遥操作示例 |
+
+---
+
+### 🧩 核心源码（Source Code）
+
+| 仓库 | 说明 |
+|------|------|
+| **XRoboToolkit-Unity-Client** | XR 端 Unity 客户端源码（当前支持 PICO，后续将支持更多设备） |
+| **BRobotAssistantLib** | 面向 Unity 机器人接口的 Android 底层库 |
+| **XRoboToolkit-PC-Service** | PC 端核心 C++ 机器人服务 |
+| **XRoboToolkit-PC-Service-Pybind** | PC 端服务的 Python SDK 绑定 |
+
+> 📄 每个仓库均包含独立的 README 与完整的安装和使用说明。
+
+---
+
+## 🚀 快速开始
+
+🎥 示例视频：  
+- `robot_teleoperation.mp4`  
+- `simulation_teleoperation.mp4`  
+
+以下步骤将指导你在 **PICO 4 Ultra 头显** 与 **Linux x86 PC** 上，构建并运行完整的 XR → 机器人遥操作示例。
+
+### 系统要求（已测试环境）
+
+- **Linux x86 PC**：Ubuntu 22.04  
+- **PICO 4 Ultra**：  
+  - 系统版本 > 5.12  
+  - 需要企业版权限  
+  - 需要 VST 相机访问权限（用于头显相机数据访问）
+
+---
+
+### 1️⃣ 安装 XRoboToolkit PC 服务
+
+- 下载适用于 Ubuntu 22.04 的 `.deb` 安装包，或从源码仓库自行构建  
+- 安装命令：
+
+```bash
+sudo dpkg -i XRoboToolkit-PC-Service_1.0.0_ubuntu_22.04_amd64.deb
+
+
 
 **核心功能**
 
-OpenXR支持，
-
-低延迟视频传输（<100ms，< 1% 丢包率），
-
-C++，python, Unity SDK
-
-人形机器人，半人形移动机器人，双臂机器人通用
-
-x86 ubuntu，arm64 ubuntu（nvidia orin），windows适配
-
-MuJoCo，Isaac lab仿真平台支持 （持续更新）
-
-支持全身追踪和物体追踪
 
 **传输延迟如何测量的**
 
