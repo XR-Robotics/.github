@@ -1,6 +1,6 @@
 ## 🤖 XR Robotics 简介
 
-**XR Robotics** 是一个面向 **XR、机器人与人工智能（AI）** 开发者和专业人士的开源项目。
+**XR Robotics** 是一个面向 **机器人，具身智能，XR** 开发者和专业人士的开源项目。
 
 我们提供 **XRoboToolkit** —— 一套跨设备的 SDK、框架和示例应用，支持通过 **XR 设备对机器人进行实时远程遥操作（Teleoperation）**，适用于仿真环境与真实机器人系统。
 
@@ -15,7 +15,8 @@
 * C++，python, Unity SDK，OpenXR
 * x86 ubuntu，arm64 ubuntu（nvidia orin），windows适配
 * MuJoCo，[NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html) 仿真平台支持（持续更新）
-  注：如需PICO企业支持，采购，和头显原始相机数据，请购买 PICO 4 Ultra 企业版。
+* 注：如需PICO企业支持，采购，和头显原始相机数据，请购买 PICO 4 Ultra 企业版。商业合作和定制开发，请联系 Ke Jing (ke.jing@bytedance.com)
+
 
 ---
 
