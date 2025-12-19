@@ -15,7 +15,7 @@
 * C++，python, Unity SDK，OpenXR
 * x86 ubuntu，arm64 ubuntu（nvidia orin），windows适配
 * MuJoCo，[NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html) 仿真平台支持（持续更新）
-
+  注：如需PICO企业支持，采购，和头显原始相机数据，请购买 PICO 4 Ultra 企业版。
 
 ---
 
