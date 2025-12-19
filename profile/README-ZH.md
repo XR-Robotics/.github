@@ -14,7 +14,7 @@
 * [PICO 体感追踪器](https://www.picoxr.com/cn/products/pico-motion-tracker) 支持[【全身追踪】](https://developer-cn.picoxr.com/document/unity/body-tracking/)和[【独立追踪】](https://developer-cn.picoxr.com/document/unity/object-tracking/)
 * C++，python, Unity SDK，OpenXR
 * x86 ubuntu，arm64 ubuntu（nvidia orin），windows适配
-* MuJoCo，Isaac lab仿真平台支持 （持续更新）
+* MuJoCo，[NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html)仿真平台支持（持续更新）
 
 
 ---
