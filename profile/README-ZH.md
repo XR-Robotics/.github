@@ -289,7 +289,7 @@ print(f"Motion Timestamp (ns): {motion_timestamp_ns}")
 
 - 如何适配人形机器人
 
-人形机器人控制
+人形机器人控制可以参考以下合作项目
 
 [TWIST2](https://yanjieze.com/TWIST2/)
 
@@ -343,8 +343,9 @@ Zed mini是一种双目RGB-D相机，需要搭配nvidia 显卡使用，需要先
 
 下载 [XRoboToolkit-RobotVision-Console.win.zip](https://github.com/XR-Robotics/XRoboToolkit-RobotVision-PC/releases/download/v1.0.0/XRoboToolkit-RobotVision-Console.win.zip)
 
-Plain Text  
+```Plain Text  
 RobotVisionConsole.exe --tcp-camera -c --ip {HEADSET_IP} --port 12345 --width 1280 --height 720 --fps 60 --bitrate 4000000
+```
 
 **机器人仿真**
 
@@ -352,7 +353,7 @@ RobotVisionConsole.exe --tcp-camera -c --ip {HEADSET_IP} --port 12345 --width 12
 
 目前已和英伟达合作，后续会更新教程
 
-**\[该类型的内容暂不支持下载\]**
+
 
 2\. **MuJoCo 仿真**
 
