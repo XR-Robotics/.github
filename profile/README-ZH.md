@@ -204,27 +204,27 @@ Orin 平台请使用 XRobotoolkit-PC-Service-Pybind/examples
 
 全身追踪请首先在头显calibrate motion tracker。在app里选择full body tracking
 
-Python  
+```Python  
 import xrobotoolkit_sdk as xrt  
-<br/>xrt.init()  
-<br/>\# Check if body tracking data is available  
+xrt.init()  
+# Check if body tracking data is available  
 if xrt.is_body_data_available():  
-\# Get body joint poses (24 joints, 7 values each: x,y,z,qx,qy,qz,qw)  
+# Get body joint poses (24 joints, 7 values each: x,y,z,qx,qy,qz,qw)  
 body_poses = xrt.get_body_joints_pose()  
 print(f"Body joints pose data: {body_poses}")  
-<br/>\# Get body joint velocities (24 joints, 6 values each: vx,vy,vz,wx,wy,wz)  
+# Get body joint velocities (24 joints, 6 values each: vx,vy,vz,wx,wy,wz)  
 body_velocities = xrt.get_body_joints_velocity()  
 print(f"Body joints velocity data: {body_velocities}")  
-<br/>\# Get body joint accelerations (24 joints, 6 values each: ax,ay,az,wax,way,waz)  
+# Get body joint accelerations (24 joints, 6 values each: ax,ay,az,wax,way,waz)  
 body_accelerations = xrt.get_body_joints_acceleration()  
 print(f"Body joints acceleration data: {body_accelerations}")  
-<br/>\# Get IMU timestamps for each joint  
+# Get IMU timestamps for each joint  
 imu_timestamps = xrt.get_body_joints_timestamp()  
 print(f"IMU timestamps: {imu_timestamps}")  
-<br/>\# Get body data timestamp  
+# Get body data timestamp  
 body_timestamp = xrt.get_body_timestamp_ns()  
 print(f"Body data timestamp: {body_timestamp}")  
-<br/>\# Example: Get specific joint data (Head joint is index 15)  
+# Example: Get specific joint data (Head joint is index 15)  
 head_pose = body_poses\[15\] # Head joint  
 x, y, z, qx, qy, qz, qw = head_pose  
 print(f"Head pose: Position({x:.3f}, {y:.3f}, {z:.3f}) Rotation({qx:.3f}, {qy:.3f}, {qz:.3f}, {qw:.3f})")  
@@ -233,7 +233,8 @@ print("Body tracking data not available. Make sure:")
 print("1. PICO headset is connected")  
 print("2. Body tracking is enabled in the control panel")  
 print("3. At least two Pico Swift devices are connected and calibrated")  
-<br/>xrt.close()
+xrt.close()
+```
 
 - 怎么手部追踪
 
