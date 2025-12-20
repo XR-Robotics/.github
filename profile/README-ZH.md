@@ -98,16 +98,17 @@ arm64 Ubuntu 22.04用户， 下载 deb package [XRoboToolkit-PC-Service-headless
 
 x86 ubuntu22.04 用户， 下载 deb package [XRoboToolkit_PC_Service_1.0.0_ubuntu_22.04_amd64.deb](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit_PC_Service_1.0.0_ubuntu_22.04_amd64.deb)
 
-Plain Text  
-sudo dpkg -i &lt;file_name&gt;.deb
-
+```Plain Text  
+sudo dpkg -i <file_name>.deb
+```
 x86 用户可以直接点击应用图标开始。也可以使用命令行
 
 arm64 用户使用命令行
 
-Plain Text  
+```Plain Text  
 cd /opt/apps/roboticsservice  
 bash runService.sh
+```
 
 Windows 用户， 下载 package [XRoboToolkit-PC-Service.win.zip](https://github.com/XR-Robotics/XRoboToolkit-PC-Service/releases/download/v1.0.0/XRoboToolkit-PC-Service.win.zip)
 
@@ -127,8 +128,9 @@ PC上下载 apk 文件[XRoboToolkit-PICO-1.1.1.apk](https://github.com/XR-Roboti
 
 使用adb 安装apk
 
-Plain Text  
+```Plain Text  
 adb install -g XRoboToolkit-PICO-1.1.1.apk
+```
 
 4\. **运行程序**
 
@@ -238,28 +240,29 @@ xrt.close()
 
 - 怎么手部追踪
 
-Python  
+```Python  
 import xrobotoolkit_sdk as xrt  
-<br/>xrt.init()  
-<br/>\# Left Hand State  
+xrt.init()  
+# Left Hand State  
 left_hand_tracking_state = xrt.get_left_hand_tracking_state()  
 print(f"Left Hand State: {left_hand_tracking_state}")  
-<br/>\# Left Hand isActive  
+# Left Hand isActive  
 left_hand_is_active = xrt.get_left_hand_is_active()  
 print(f"Left Hand isActive: {left_hand_is_active}")  
-<br/>\# Right Hand State  
+# Right Hand State  
 right_hand_tracking_state = xrt.get_right_hand_tracking_state()  
 print(f"Right Hand State: {right_hand_tracking_state}")  
-<br/>\# Right Hand isActive  
+# Right Hand isActive  
 right_hand_is_active = xrt.get_right_hand_is_active()  
 print(f"Right Hand isActive: {right_hand_is_active}")  
-<br/>xrt.close()
+xrt.close()
+```
 
 - 物体追踪找不到
 
 物体追踪需要选择object tracking. 追踪范围1.2米
 
-Python  
+```Python  
 num_motion_data = xrt.num_motion_data_available()  
 print(f"Number of Motion Trackers: {num_motion_data}")  
 if num_motion_data > 0:  
@@ -268,18 +271,19 @@ motion_tracker_velocity = xrt.get_motion_tracker_velocity()
 motion_tracker_acceleration = xrt.get_motion_tracker_acceleration()  
 motion_tracker_serial_numbers = xrt.get_motion_tracker_serial_numbers()  
 motion_timestamp_ns = xrt.get_motion_timestamp_ns()  
-<br/>print(f"Motion Tracker Pose: {motion_tracker_pose}")  
+print(f"Motion Tracker Pose: {motion_tracker_pose}")  
 print(f"Motion Tracker Velocity: {motion_tracker_velocity}")  
 print(f"Motion Tracker Acceleration: {motion_tracker_acceleration}")  
 print(f"Motion Tracker Serial Numbers: {motion_tracker_serial_numbers}")  
 print(f"Motion Timestamp (ns): {motion_timestamp_ns}")
+```
 
 3\. **XRoboToolkit-Teleop-Sample-Python**
 
 提供多种类型机器人实例代码（双臂，灵巧手，移动底盘）  
 机器人控制细节， 仿真以及真机控制代码，参考以下文档 <https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python>
 
-[Robot Hand over document](https://bytedance.us.larkoffice.com/docx/MjXndEaQuoQxaoxJvV4uld74s1L)
+
 
 常见问题
 
@@ -287,13 +291,13 @@ print(f"Motion Timestamp (ns): {motion_timestamp_ns}")
 
 人形机器人控制
 
-TWIST2
+[TWIST2](https://yanjieze.com/TWIST2/)
 
-**\[该类型的内容暂不支持下载\]**
 
-SONIC
 
-**\[该类型的内容暂不支持下载\]**
+[SONIC](https://nvlabs.github.io/SONIC/)
+
+
 
 - 用了什么运动学逆解
 
