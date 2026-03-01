@@ -137,6 +137,7 @@ We welcome all contributors from academia, industry, and the open-source robotic
 ---
 
 ## News
-XRoboToolkit has been accepted to SII 2026 — [The 2026 IEEE/SICE International Symposium on System Integration](https://sice-si.org/SII2026/)!
+- XRoboToolkit won the [🏆Best Paper Award, SII 2026](https://sice-si.org/SII2026/awards/)!
+- XRoboToolkit has been accepted to SII 2026 — [The 2026 IEEE/SICE International Symposium on System Integration](https://sice-si.org/SII2026/)!
 
 > ⚠️ This project is under active development. Contributions and feedback are highly encouraged.
