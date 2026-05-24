@@ -21,6 +21,7 @@
 |----------------------------------------|--------------------------------------------------|
 | [XRoboToolkit-Teleop-Sample-Python](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Python)   | simulation and real robot teleoperation sample written in python |
 | [XRoboToolkit-Teleop-Sample-Cpp](https://github.com/XR-Robotics/XRoboToolkit-Teleop-Sample-Cpp)       | Bimanuel robot platform teleoperation sample written in C++             |
+| [XRoboToolkit Dexterous Hand Example](https://github.com/RealHand-Robotics/XRoboToolkit_Realhand_Dexterous_Hand_Example)  | simulation and real robot sample for dexterous hands written in python |
 
 #### 🧩 Source Code
 
